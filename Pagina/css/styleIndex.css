@@ -1,0 +1,48 @@
+.titulo{
+    background-color: beige;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.img{
+    position: absolute;
+    top: 154px;
+    border: 5px solid black;
+    width: 200px;
+    height: 550px;
+    background-color: bisque;
+    text-align: center;
+
+}
+
+.cat{
+    position: absolute;
+    bottom: 40px;
+    left: 230px;
+    width: 1065px;
+    height: 550px;
+    border: 5px solid black;
+    background-color: brown;
+    text-align: center;
+}
+
+.contacto{
+    position: absolute;
+    top: 154px;
+    left: 1317px;
+    border: 5px solid black;
+    width: 200px;
+    height: 550px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.scroll{
+    position: relative;
+    border: 5px solid black;
+    width: 170px;
+    height: 400px;
+    margin:auto;
+    overflow: auto;
+    font-size: 30px;
+}
