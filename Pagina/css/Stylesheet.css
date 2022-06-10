@@ -1,0 +1,146 @@
+html{
+	font-family: cursive;
+}
+
+body{
+	background-color: darkmagenta;
+
+}
+
+#titulo{
+background-color: pink;
+border: 5px solid black;
+margin: 1.2%;
+}
+#t1{
+padding-left: 43%;
+/*position: absolute; top: 0; left: 43%;*/
+}
+#t2{
+padding-left: 47%;
+/*position: absolute; top: 0; left: 43%;*/
+}
+main{
+	display: grid;
+    gap: 50px 2%;
+    grid-template-columns: 13% 70% 13%;
+    /*background-color: brown;*/
+    margin: 1.2%;
+   
+}
+#img{
+background-color: lightblue;
+border: 5px solid black;
+height: 100%;
+}
+
+
+#cat{
+background-color: lightcoral;
+border: 5px solid black;
+height: 100%;
+}
+#scroll{
+	background-color: lightgrey;
+	margin: 3%;
+	height: 70%;
+	border: 4px solid black;
+}
+#contac{
+background-color: lightblue;
+border: 5px solid black;
+height: 100%;
+}
+
+#t3{
+	padding-left: 14%;
+}
+#t4{
+	padding-left: 27%;
+}
+#t5{
+	padding-left: 35%;
+}
+#t6{
+	padding-left: 42%;
+}
+#t9{
+	padding-left: 48%;
+}
+#t7{
+	padding-left: 20%;
+}
+#t8{
+	padding-left: 4%;
+}
+#t9{
+	padding-left: 40%;
+}
+#t10{
+	padding-left: 41%;
+}
+#t11{
+	padding-left: 4%;
+}
+#img1{
+	padding-left: 4%;
+	width: 90%;
+	height: 27%;
+	margin-bottom: 4%;
+}
+#img1r{
+	padding-top: 60%;
+	padding-left: 4%;
+	width: 90%;
+	height: 27%;
+	margin-bottom: 4%;
+}
+#img2{
+	padding-left: 4%;
+	width: 90%;
+	height: 27%;
+	margin-bottom: 4%;
+}
+form{
+/*padding-left: 44%;*/
+position: absolute;top: 15%;left: 79%;
+}
+input{
+	width: 73%;
+    font-family: cursive;
+    font-size: 100%;
+}
+button:hover{
+    background-color: lightblue;
+}
+#t1r{
+	padding-left: 42%;
+
+}
+#t2p{
+	padding-left: 42.5%;
+	/*position: absolute; top: 0; left: 43%;*/
+}
+#t22{
+	padding-left: 44%;
+
+}
+#t4r{
+	padding-left: 37%;
+
+}
+#t5d{
+	padding-left: 43%;
+}
+#t5p{
+	padding-left: 45%;
+}
+#t5t{
+	padding-left: 39%;
+}
+#t9s{
+	padding-left: 44%;
+}
+#t10a{
+	padding-left: 43%;
+}

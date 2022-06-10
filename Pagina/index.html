@@ -1,34 +1,77 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetCareful</title>
-    <link rel="stylesheet" type="text/css" href="css/styleIndex.css">
+    <link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
 </head>
-<body>
-    <div class="titulo">
-        <h1>#Titulo</h1>
-        <h2>How to care your pet</h2>
-    </div>
 
-    <div class="img">
-        <h1>#Imagenes</h1>
-        <div class="scroll">
-            Aqui irán las imagenes
-        </div>
-    </div>
+<header>
 
-    <div class="cat">
-        <h1>#Catalogo</h1>
-        <h2>Catalogo de especies de animales</h2>
-        <h3><a href="page2.html">Siguiente pagina </a></h3>
+    <div id="titulo">
+        <h1 id="t1">PetCareful.com</h1>
+        <h2 id="t2p">How to care your pet</h2>
+        <form method="POST" action="buscador.php">  
+            <input type="text" name="search" placeholder="Perros, Gatos, Reptiles" />
+            <button type="submit" name="btnbuscar" id="btnbuscar">Buscar</button>
+        </form>
     </div>
+    <!--<div id="form">
+        <form method="POST" action="buscador.php">
+            <label>Search</label>
+            <input type="text" name="search"  />
+        </form>
+    </div>-->
     
-    <div class="contacto">
-        <h1>#Contacto</h1>
-        <h2>Correos</h2>
-    </div>
+</header>
+
+<body>
+    <main>
+
+        <div id="img">
+            <h1 id="t3">Imagenes</h1>
+            <div id="scroll">
+                <!--Aqui irán las imagenes-->
+                <img id="img1" src="img/Doberman.jpg">
+                <img id="img2" src="img/Persa.jpg">
+                <img id="img2" src="img/Gecko.jpg">
+                
+            </div>
+        </div>
+
+        <div id="cat">
+            <!--<h1 id="t4">#Catalogo</h1>-->
+
+            <h2 id="t5">Animales para tener en casa</h2>
+
+            <p>Cada día, aumenta el número de personas que eligen vivir en apartamentos, especialmente en ciudades grandes y medianas. Entre otras consecuencias para la vida cotidiana, esto hace que cada vez más personas estén interesadas en saber cuáles son los mejores animales para tener en casa. Después de todo, es difícil resistirse a la idea de tener un compañero que traiga alegría a su hogar, ¿no es así? Sin embargo, es importante tener en cuenta varios aspectos antes de adoptar una mascota para tener en casa para proporcionarle una vida feliz y saludable. No hay duda de que el espacio y el tiempo que requiere cada especie son factores clave a la hora de elegir la mascota más adecuada para tu estilo de vida.</p>
+            <p>Si vives o estás a punto de mudarte a un apartamento y quieres adoptar una mascota, sigue leyendo este nuevo artículo de ExpertoAnimal para descubrir cuáles son los mejores animales para tener en casa y algunos consejos para elegir la mascota adecuada para tu hogar.</p>
+            <p>¿Cómo elegir una mascota?</p>
+            <p>Los animales pequeños a menudo son más adecuados para vivir en apartamentos, ya que son más fáciles de cuidar y se adaptan más fácilmente a un entorno pequeño. Sin embargo, hay otros factores que también debes tener en cuenta al elegir los mejores animales para casa.</p>
+            <p>Por ejemplo, ¿qué tipo de mascota estás buscando? ¿Un amigo de lealtad incondicional o un compañero más independiente? Piensa en tu personalidad y el tipo de animal que mejor te convenga. ¿Cuánta interacción piensas mantener con tu mascota? ¿Estás buscando un amigo que pueda caminar, jugar todos los días o prefieres un animal más tranquilo que requiera menos tiempo y esfuerzo? Recuerda que algunas mascotas, como los peces, pueden no interactuar tan directamente o ser tan comunicativas como otras debido a las limitaciones inherentes de las especies.</p>
+            <p>Además, recuerda considerar la esperanza de vida aproximada de cada especie. Hay muchas mascotas de larga vida, como las tortugas, perros, gatos y chinchillas. Sin embargo, algunas mascotas tienen una longevidad mucho menos privilegiada, como los hámsters, que generalmente viven solo de 2 a 4 años.</p>
+            <!--<h3 id="t6"><a href="page2.html">Siguiente pagina </a></h3>-->
+        </div>
+
+        <div id="contac">
+            <h1 id="t7">Correos</h1>
+            <h5 id="t8">19121039@morelia.tecnm.mx</h5>
+            <h5 id="t11">19121033@morelia.tecnm.mx</h5>
+            <!--<h2 id="t8">Correos</h2>-->
+        </div>
+    </main>
+
+    <!--<?php
+        include("buscador.php");
+    ?>-->
+
 </body>
+
+<footer>
+    <!-- Footer -->
+</footer>
+
 </html>
